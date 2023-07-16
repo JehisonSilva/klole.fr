@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3B4C33;
+    --primary: #2EB872;
     --light: #F3F4F5;
     --dark: #3B4C33;
 }
@@ -67,6 +67,7 @@
 
 
 /*** Navbar ***/
+
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -314,7 +315,7 @@
 
 
 /*** Img Border ***/
-.img-border {
+.btn-play {
     position: relative;
     height: 100%;
     min-height: 400px;
@@ -519,9 +520,11 @@
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/bg-2.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../img/back-005.jpg) center no-repeat;
     background-size: cover;
 }
+
+
 
 .footer .btn.btn-social {
     margin-right: 5px;
